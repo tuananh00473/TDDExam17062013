@@ -41,6 +41,11 @@ public class testStringCalculator {
     }
 
     @Test
+    public void testShould(){
+        assertEquals(6, StringCalculator.add("//;\n1;2,3"));
+    }
+
+    @Test
     public void testShouldReturnMessageWithNegative(){
         try{
             assertEquals(0, StringCalculator.add("-1,2"));
