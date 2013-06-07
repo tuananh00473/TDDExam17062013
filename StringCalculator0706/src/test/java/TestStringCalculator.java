@@ -75,6 +75,4 @@ public class TestStringCalculator {
     public void testShouldReturnSumWithManyLongerDelimiter(){
         assertEquals(6, StringCalculator.add("//[***][%%%]\n1***2%%%3"));
     }
-
-
 }
