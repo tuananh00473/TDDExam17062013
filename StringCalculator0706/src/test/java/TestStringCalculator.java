@@ -46,5 +46,15 @@ public class TestStringCalculator {
         }
     }
 
+    @Test
+    public void testShouldReturnMessageWithManyNegative(){
+        try{
+            assertEquals(0, StringCalculator.add("-1,-2,3,4-6"));
+            fail("Negative Exception");
+        }catch (RuntimeException re){
+            assertEquals("Negative Exception With -1 -2 -6 ", re.getMessage());
+        }
+    }
+
 
 }
