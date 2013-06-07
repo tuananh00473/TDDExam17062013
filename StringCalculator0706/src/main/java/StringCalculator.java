@@ -21,7 +21,22 @@ public class StringCalculator {
             }catch(Exception e){
                 if(s.startsWith("//")){
                     if(s.contains("[")){
-
+                        List<String> listDelimiter = new ArrayList<String>();
+                        int startPoint = 0;
+                        int endPoint = 0;
+                        for(int i=0; i<s.length(); i++){
+                            if(String.valueOf(s.charAt(i)).equals("[")){
+                                startPoint = i;
+                            }
+                            if(String.valueOf(s.charAt(i)).equals("]")){
+                                endPoint = i;
+                                listDelimiter.add(s.substring(startPoint+1, endPoint));
+                            }
+                        }
+                        s = s.substring(endPoint + 2);
+                        for (int i=0; i<listDelimiter.size(); i++){
+                            s = s.replace(listDelimiter.get(i), ",");
+                        }
                     }else{
                         s = s.replace(s.substring(2, 3), ",");
                         s = s.substring(4);
