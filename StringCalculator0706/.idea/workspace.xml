@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/TestStringCalculator.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370601015998" ignored="false" />
     <file path="/fragment.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370598530999" ignored="false" />
-    <file path="/StringCalculator.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370600778708" ignored="false" />
+    <file path="/StringCalculator.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370601119053" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestStringCalculator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestStringCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="51" selection-start="939" selection-end="974" vertical-scroll-proportion="0.6809651">
+            <state line="44" column="49" selection-start="1154" selection-end="1177" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringCalculator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="87" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
+            <state line="34" column="24" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.86327076">
               <folding />
             </state>
           </provider>
@@ -96,8 +96,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/StringCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StringCalculator.java" />
       </list>
     </option>
   </component>
@@ -468,19 +468,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="87" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="51" selection-start="939" selection-end="974" vertical-scroll-proportion="0.6809651">
+        <state line="44" column="49" selection-start="1154" selection-end="1177" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="24" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.86327076">
+          <folding />
         </state>
       </provider>
     </entry>

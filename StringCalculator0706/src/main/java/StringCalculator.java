@@ -29,7 +29,11 @@ public class StringCalculator {
                 String str[] = s.split(",");
                 for (int i=0; i<str.length; i++){
                     int value = toInt(str[i]);
-                    sum += value;
+                    if(value < 0){
+                        throw new RuntimeException("Negative Exception With " + value);
+                    }else{
+                        sum += value;
+                    }
                 }
             }
         }
