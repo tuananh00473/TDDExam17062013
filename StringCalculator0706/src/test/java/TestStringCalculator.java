@@ -10,8 +10,15 @@ import static org.junit.Assert.assertEquals;
  * To change this template use File | Settings | File Templates.
  */
 public class TestStringCalculator {
-   @Test
+    @Test
     public void testShouldReturn0WithEmptyString(){
        assertEquals(0, StringCalculator.add(""));
     }
+
+    @Test
+    public void testShouldReturnNumber(){
+       assertEquals(1, StringCalculator.add("1"));
+    }
+
+
 }
