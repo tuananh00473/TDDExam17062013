@@ -66,5 +66,10 @@ public class TestStringCalculator {
         assertEquals(6, StringCalculator.add("//[***]\n1***2***3"));
     }
 
+    @Test
+    public void testShouldReturnSumWithManyDelimiter(){
+        assertEquals(6, StringCalculator.add("//[*][%]\n1*2%3"));
+    }
+
 
 }
