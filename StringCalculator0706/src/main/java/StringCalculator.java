@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Admin
@@ -20,20 +23,28 @@ public class StringCalculator {
                     if(s.contains("[")){
 
                     }else{
-                        s = s.replace(s.substring(2,3), ",");
+                        s = s.replace(s.substring(2, 3), ",");
                         s = s.substring(4);
                     }
                 }else{
                     s = s.replace("\n", ",");
                 }
                 String str[] = s.split(",");
+                List<Integer> listNegative = new ArrayList<Integer>();
                 for (int i=0; i<str.length; i++){
                     int value = toInt(str[i]);
                     if(value < 0){
-                        throw new RuntimeException("Negative Exception With " + value);
+                        listNegative.add(value);
                     }else{
                         sum += value;
                     }
+                }
+                if(listNegative.size() > 0){
+                    String stringNegative = "Negative Exception With ";
+                    for (int i=0; i<listNegative.size(); i++){
+                        stringNegative += listNegative.get(i) + " ";
+                    }
+                    throw new RuntimeException(stringNegative);
                 }
             }
         }

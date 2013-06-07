@@ -42,14 +42,14 @@ public class TestStringCalculator {
             assertEquals(0, StringCalculator.add("-1,2"));
             fail("Negative Exception");
         }catch (RuntimeException re){
-            assertEquals("Negative Exception With -1", re.getMessage());
+            assertEquals("Negative Exception With -1 ", re.getMessage());
         }
     }
 
     @Test
     public void testShouldReturnMessageWithManyNegative(){
         try{
-            assertEquals(0, StringCalculator.add("-1,-2,3,4-6"));
+            assertEquals(0, StringCalculator.add("-1,-2,3,4,-6"));
             fail("Negative Exception");
         }catch (RuntimeException re){
             assertEquals("Negative Exception With -1 -2 -6 ", re.getMessage());

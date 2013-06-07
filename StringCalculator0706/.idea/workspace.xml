@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/TestStringCalculator.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370601239676" ignored="false" />
     <file path="/fragment.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370598530999" ignored="false" />
-    <file path="/StringCalculator.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370601119053" ignored="false" />
+    <file path="/StringCalculator.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370601463264" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <file leaf-file-name="TestStringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="59" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.7265416">
+            <state line="51" column="60" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.58981234">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +79,11 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="113" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="37" column="61" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#905#914#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -470,14 +473,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="113" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="37" column="61" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#905#914#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="59" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.7265416">
+        <state line="51" column="60" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.58981234">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
