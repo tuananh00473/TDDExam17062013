@@ -18,7 +18,8 @@ public class StringCalculator {
             }catch(Exception e){
                 String str[] = s.split(",");
                 for (int i=0; i<str.length; i++){
-                    sum += toInt(str[i]);
+                    int value = toInt(str[i]);
+                    sum += value;
                 }
             }
         }
