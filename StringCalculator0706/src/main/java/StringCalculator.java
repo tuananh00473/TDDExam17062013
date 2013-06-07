@@ -14,9 +14,13 @@ public class StringCalculator {
         int sum = 0;
         if(!s.isEmpty()){
             try{
-                return Integer.parseInt(s);
+                return toInt(s);
             }catch(Exception e){}
         }
         return sum;
+    }
+
+    public static int toInt(String s){
+        return Integer.parseInt(s);
     }
 }
