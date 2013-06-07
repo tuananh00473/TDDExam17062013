@@ -35,7 +35,7 @@ public class StringCalculator {
                     int value = toInt(str[i]);
                     if(value < 0){
                         listNegative.add(value);
-                    }else{
+                    }else if(value<=1000){
                         sum += value;
                     }
                 }
