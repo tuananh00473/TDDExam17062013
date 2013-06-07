@@ -15,7 +15,12 @@ public class StringCalculator {
         if(!s.isEmpty()){
             try{
                 return toInt(s);
-            }catch(Exception e){}
+            }catch(Exception e){
+                String str[] = s.split(",");
+                for (int i=0; i<str.length; i++){
+                    sum += toInt(str[i]);
+                }
+            }
         }
         return sum;
     }
