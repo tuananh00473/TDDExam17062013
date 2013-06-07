@@ -16,7 +16,9 @@ public class StringCalculator {
             try{
                 return toInt(s);
             }catch(Exception e){
-                if(s.contains("\n")){
+                if(s.contains("[")){
+
+                }else{
                     s = s.replace("\n", ",");
                 }
                 String str[] = s.split(",");

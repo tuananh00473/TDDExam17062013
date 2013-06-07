@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/TestStringCalculator.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370600211413" ignored="false" />
     <file path="/fragment.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370598530999" ignored="false" />
-    <file path="/StringCalculator.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370600303079" ignored="false" />
+    <file path="/StringCalculator.java" changelist="92d8384c-0ba0-442f-8028-08996f6bae32" time="1370600374217" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="45" selection-start="508" selection-end="508" vertical-scroll-proportion="0.49865952">
+            <state line="21" column="45" selection-start="531" selection-end="531" vertical-scroll-proportion="0.58981234">
               <folding />
             </state>
           </provider>
@@ -479,7 +479,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="508" selection-end="508" vertical-scroll-proportion="0.49865952">
+        <state line="21" column="45" selection-start="531" selection-end="531" vertical-scroll-proportion="0.58981234">
           <folding />
         </state>
       </provider>
