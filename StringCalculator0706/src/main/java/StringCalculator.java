@@ -12,6 +12,11 @@ public class StringCalculator {
 
     public static int getSum(String s){
         int sum = 0;
+        if(!s.isEmpty()){
+            try{
+                return Integer.parseInt(s);
+            }catch(Exception e){}
+        }
         return sum;
     }
 }
