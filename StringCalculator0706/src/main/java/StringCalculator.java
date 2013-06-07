@@ -16,8 +16,13 @@ public class StringCalculator {
             try{
                 return toInt(s);
             }catch(Exception e){
-                if(s.contains("[")){
+                if(s.startsWith("//")){
+                    if(s.contains("[")){
 
+                    }else{
+                        s = s.replace(s.substring(2,3), ",");
+                        s = s.substring(4);
+                    }
                 }else{
                     s = s.replace("\n", ",");
                 }
