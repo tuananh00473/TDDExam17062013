@@ -65,10 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestStringCalculator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestStringCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="246" selection-end="246" vertical-scroll-proportion="0.5013405">
+            <state line="15" column="4" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringCalculator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+            <state line="9" column="16" selection-start="238" selection-end="238" vertical-scroll-proportion="0.41018766">
               <folding />
             </state>
           </provider>
@@ -468,19 +468,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="246" selection-end="246" vertical-scroll-proportion="0.5013405">
+        <state line="15" column="4" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="238" selection-end="238" vertical-scroll-proportion="0.41018766">
+          <folding />
         </state>
       </provider>
     </entry>

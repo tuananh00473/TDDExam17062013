@@ -13,5 +13,5 @@ public class TestStringCalculator {
    @Test
     public void testShouldReturn0WithEmptyString(){
        assertEquals(0, StringCalculator.add(""));
-   }
+    }
 }
