@@ -19,7 +19,6 @@ public class StringCalculator {
             return toInt(s);
         }catch (Exception e){
             if(!s.isEmpty()){
-
                 if(s.startsWith("//")){
                     if (s.contains("[")){
                         List<String> listDelimiter = new ArrayList<String>();
@@ -44,9 +43,7 @@ public class StringCalculator {
                         s = s.substring(4);
                     }
                 }
-
                 s = s.replace("\n", ",");
-
                 String str[] = s.split(",");
                 List<Integer> listNegative = new ArrayList<Integer>();
                 for(int i=0; i<str.length; i++){
