@@ -60,4 +60,9 @@ public class testStringCalculator {
     public void testShouldNotAddNumberMoreThanThousand(){
         Assert.assertEquals(2, StringCalculator.add("2,1001"));
     }
+
+    @Test
+    public void testShouldReturnSumWithLongerDelimiter(){
+        Assert.assertEquals(6, StringCalculator.add("//[***]\n1***2***3"));
+    }
 }
