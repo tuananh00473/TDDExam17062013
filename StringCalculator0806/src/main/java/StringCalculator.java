@@ -32,16 +32,20 @@ public class StringCalculator {
                 s = s.replace("\n", ",");
 
                 String str[] = s.split(",");
-//                List<Integer> listNegative = new ArrayList<Integer>();
-                int count = 0;
+                List<Integer> listNegative = new ArrayList<Integer>();
                 for(int i=0; i<str.length; i++){
                     int value = toInt(str[i]);
-                    if(value < 0)
-                        count = value;
+                    if(value < 0){
+                        listNegative.add(value);
+                    }
                     sum += value;
                 }
-                if(count != 0){
-                    throw new RuntimeException("Negative Exception with "  + count);
+                if(listNegative.size() > 0){
+                    String negativeMessage = "Negative Exception with";
+                    for(int i=0; i<listNegative.size(); i++){
+                        negativeMessage += " " +listNegative.get(i);
+                    }
+                    throw new RuntimeException(negativeMessage);
                 }
             }
         }

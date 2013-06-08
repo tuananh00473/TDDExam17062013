@@ -52,7 +52,7 @@ public class testStringCalculator {
             Assert.assertEquals(0, StringCalculator.add("-1,-2,3,4,-5"));
             fail("Runtime Exception");
         }catch (RuntimeException re){
-            Assert.assertEquals("Negative Exception with -1 -2 -5 ", re.getMessage());
+            Assert.assertEquals("Negative Exception with -1 -2 -5", re.getMessage());
         }
     }
 
