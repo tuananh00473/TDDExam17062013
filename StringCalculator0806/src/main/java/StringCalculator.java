@@ -17,7 +17,15 @@ public class StringCalculator {
         }catch (Exception e){
             if(!s.isEmpty()){
 
+                if(s.startsWith("//")){
+                    if (s.contains("[")){
 
+                    }else{
+                        String regex = s.substring(2,3);
+                        s = s.substring(4);
+                        s = s.replace(regex, ",");
+                    }
+                }
 
                 s = s.replace("\n", ",");
 
