@@ -13,8 +13,12 @@ public class StringCalculator {
     private static int getSum(String s) {
         int sum = 0;
         try{
-            return Integer.parseInt(s);
+            return toInt(s);
         }catch (Exception e){}
         return sum;
+    }
+
+    private static int toInt(String s) {
+        return Integer.parseInt(s);
     }
 }
