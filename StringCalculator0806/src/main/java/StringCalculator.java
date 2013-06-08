@@ -17,9 +17,7 @@ public class StringCalculator {
         }catch (Exception e){
             if(!s.isEmpty()){
 
-                if(s.contains("\n")){
-                    s = s.replace("\n", ",");
-                }
+                s = s.replace("\n", ",");
 
                 String str[] = s.split(",");
                 for(int i=0; i<str.length; i++){
