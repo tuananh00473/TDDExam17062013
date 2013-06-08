@@ -65,19 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testStringCalculator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="testStringCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="223" selection-end="223" vertical-scroll-proportion="0.45576409">
+            <state line="16" column="114" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringCalculator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+            <state line="9" column="16" selection-start="238" selection-end="238" vertical-scroll-proportion="0.41018766">
               <folding />
             </state>
           </provider>
@@ -450,24 +441,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+        <state line="17" column="21" selection-start="663" selection-end="663" vertical-scroll-proportion="0.7747989">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="223" selection-end="223" vertical-scroll-proportion="0.45576409">
+        <state line="16" column="114" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="238" selection-end="238" vertical-scroll-proportion="0.41018766">
+          <folding />
         </state>
       </provider>
     </entry>
