@@ -14,7 +14,14 @@ public class StringCalculator {
         int sum = 0;
         try{
             return toInt(s);
-        }catch (Exception e){}
+        }catch (Exception e){
+            if(!s.isEmpty()){
+                String str[] = s.split(",");
+                for(int i=0; i<str.length; i++){
+                    sum += toInt(str[i]);
+                }
+            }
+        }
         return sum;
     }
 
