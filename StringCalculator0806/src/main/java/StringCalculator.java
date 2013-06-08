@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Admin
@@ -29,11 +32,16 @@ public class StringCalculator {
                 s = s.replace("\n", ",");
 
                 String str[] = s.split(",");
+//                List<Integer> listNegative = new ArrayList<Integer>();
+                int count = 0;
                 for(int i=0; i<str.length; i++){
                     int value = toInt(str[i]);
                     if(value < 0)
-                        throw new RuntimeException("Negative Exception with "  + value);
+                        count = value;
                     sum += value;
+                }
+                if(count != 0){
+                    throw new RuntimeException("Negative Exception with "  + count);
                 }
             }
         }

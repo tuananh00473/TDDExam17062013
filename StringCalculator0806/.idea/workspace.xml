@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/testStringCalculator.java" changelist="ab672679-4ada-4723-996d-eaa6ad17013e" time="1370675503351" ignored="false" />
     <file path="/fragment.java" changelist="ab672679-4ada-4723-996d-eaa6ad17013e" time="1370674419246" ignored="false" />
-    <file path="/StringCalculator.java" changelist="ab672679-4ada-4723-996d-eaa6ad17013e" time="1370675584151" ignored="false" />
+    <file path="/StringCalculator.java" changelist="ab672679-4ada-4723-996d-eaa6ad17013e" time="1370675726302" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +79,10 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="88" selection-start="984" selection-end="984" vertical-scroll-proportion="0.58981234">
-              <folding />
+            <state line="43" column="84" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.7265416">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -457,8 +459,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="88" selection-start="984" selection-end="984" vertical-scroll-proportion="0.58981234">
-          <folding />
+        <state line="43" column="84" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.7265416">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
