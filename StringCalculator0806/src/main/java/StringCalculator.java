@@ -22,7 +22,9 @@ public class StringCalculator {
 
                 if(s.startsWith("//")){
                     if (s.contains("[")){
-
+                        String regex = s.substring(3,6);
+                        s = s.substring(8);
+                        s = s.replace(regex, ",");
                     }else{
                         s = s.replace(s.substring(2,3), ",");
                         s = s.substring(4);
