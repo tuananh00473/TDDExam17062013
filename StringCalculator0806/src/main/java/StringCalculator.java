@@ -37,8 +37,9 @@ public class StringCalculator {
                     int value = toInt(str[i]);
                     if(value < 0){
                         listNegative.add(value);
+                    } else if (value <= 1000){
+                        sum += value;
                     }
-                    sum += value;
                 }
                 if(listNegative.size() > 0){
                     String negativeMessage = "Negative Exception with";
