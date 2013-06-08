@@ -13,4 +13,11 @@ public class testStringCalculator {
     public void testShouldReturn0WithEmptyString(){
         Assert.assertEquals(0, StringCalculator.add(""));
     }
+
+    @Test
+    public void testShouldReturnNumber(){
+        Assert.assertEquals(1, StringCalculator.add("1"));
+    }
+
+
 }
