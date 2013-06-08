@@ -56,5 +56,8 @@ public class testStringCalculator {
         }
     }
 
-
+    @Test
+    public void testShouldNotAddNumberMoreThanThousand(){
+        Assert.assertEquals(2, StringCalculator.add("2,1001"));
+    }
 }
