@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/testStringCalculator.java" changelist="ab672679-4ada-4723-996d-eaa6ad17013e" time="1370676172804" ignored="false" />
     <file path="/fragment.java" changelist="ab672679-4ada-4723-996d-eaa6ad17013e" time="1370674419246" ignored="false" />
-    <file path="/StringCalculator.java" changelist="ab672679-4ada-4723-996d-eaa6ad17013e" time="1370676314614" ignored="false" />
+    <file path="/StringCalculator.java" changelist="ab672679-4ada-4723-996d-eaa6ad17013e" time="1370676478884" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +79,10 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="41" selection-start="653" selection-end="653" vertical-scroll-proportion="0.72922254">
+            <state line="29" column="42" selection-start="839" selection-end="839" vertical-scroll-proportion="0.72922254">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1027#1036#0" expanded="true" />
+                <element signature="e#1223#1232#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -460,10 +460,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="653" selection-end="653" vertical-scroll-proportion="0.72922254">
+        <state line="29" column="42" selection-start="839" selection-end="839" vertical-scroll-proportion="0.72922254">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1027#1036#0" expanded="true" />
+            <element signature="e#1223#1232#0" expanded="true" />
           </folding>
         </state>
       </provider>
