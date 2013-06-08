@@ -7,6 +7,11 @@
  */
 public class StringCalculator {
     public static int add(String s) {
-        return 0;
+        return getSum(s);
+    }
+
+    private static int getSum(String s) {
+        int sum = 0;
+        return sum;
     }
 }
