@@ -1,6 +1,8 @@
 import org.junit.Assert;
 import org.junit.Test;
 
+import static junit.framework.Assert.fail;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Admin
@@ -32,6 +34,16 @@ public class testStringCalculator {
     @Test
     public void testShouldReturnSumOfNumberWithDelimiter(){
         Assert.assertEquals(3, StringCalculator.add("//;\n1;2"));
+    }
+
+    @Test
+    public void testShouldReturnMessageWithNegative(){
+        try{
+            Assert.assertEquals(0, StringCalculator.add("-1,2"));
+            fail("Runtime Exception");
+        }catch (RuntimeException re){
+            Assert.assertEquals("Negative Exception with -1", re.getMessage());
+        }
     }
 
 
