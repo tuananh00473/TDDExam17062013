@@ -31,6 +31,8 @@ public class StringCalculator {
                 String str[] = s.split(",");
                 for(int i=0; i<str.length; i++){
                     int value = toInt(str[i]);
+                    if(value < 0)
+                        throw new RuntimeException("Negative Exception with "  + value);
                     sum += value;
                 }
             }
