@@ -21,9 +21,8 @@ public class StringCalculator {
                     if (s.contains("[")){
 
                     }else{
-                        String regex = s.substring(2,3);
+                        s = s.replace(s.substring(2,3), ",");
                         s = s.substring(4);
-                        s = s.replace(regex, ",");
                     }
                 }
 
