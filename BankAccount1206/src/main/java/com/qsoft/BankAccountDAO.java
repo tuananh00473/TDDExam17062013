@@ -12,7 +12,7 @@ public class BankAccountDAO {
         return null;
     }
 
-    public static BankAccountDTO getAccount(String accountNumber) {
+    public BankAccountDTO getAccount(String accountNumber) {
         return null;
     }
 }

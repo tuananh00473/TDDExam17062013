@@ -20,10 +20,6 @@ public class BankAccount {
         return bankAccountDAO.getAccount(accountNumber);
     }
 
-    public static void setBankAccountDAO(BankAccountDAO bankAccountDAO) {
-        BankAccount.bankAccountDAO = bankAccountDAO;
-    }
-
     public static BankAccountDAO getBankAccountDAO() {
         return bankAccountDAO;
     }

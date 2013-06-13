@@ -26,7 +26,7 @@ public class TestBankAccount {
     public void setUp(){
       //  MockitoAnnotations.initMocks(this);
         reset(mockAccountDAO);
-        BankAccount.setBankAccountDAO(mockAccountDAO);
+        BankAccount.bankAccountDAO = mockAccountDAO;
     }
 
     @Test
@@ -47,10 +47,10 @@ public class TestBankAccount {
 
         BankAccountDTO bankAccountDTO = new BankAccountDTO(accountNumber);
         when(mockAccountDAO.getAccount(accountNumber)).thenReturn(bankAccountDTO);
-//        BankAccountDTO bankAccountDTO1 = BankAccount.getAccount(accountNumber);
+        BankAccountDTO bankAccountDTO1 = BankAccount.getAccount(accountNumber);
 //
-//        verify(bankAccountDAO).getAccount(accountNumber);
-//        assertEquals(accountNumber, bankAccountDTO1.getAccountNumber());
-//        assertEquals(0, bankAccountDTO1.getBalance(),0.001);
+        verify(mockAccountDAO).getAccount(accountNumber);
+        assertEquals(accountNumber, bankAccountDTO1.getAccountNumber());
+        assertEquals(0, bankAccountDTO1.getBalance(),0.001);
     }
 }
