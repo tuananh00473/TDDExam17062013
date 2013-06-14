@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class BankAccountDTO {
     private String accountNumber;
-    private long balance;
+    private double balance;
     private Date openTimestamp;
 
     public BankAccountDTO() {
@@ -23,11 +23,11 @@ public class BankAccountDTO {
         this.openTimestamp = new Date();
     }
 
-    public long getBalance() {
+    public double getBalance() {
         return balance;
     }
 
-    public void setBalance(long balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 

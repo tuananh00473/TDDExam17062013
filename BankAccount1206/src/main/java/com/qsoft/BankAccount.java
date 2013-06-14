@@ -1,5 +1,8 @@
 package com.qsoft;
 
+import com.transaction.Transaction;
+import com.transaction.TransactionDTO;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Admin
@@ -20,7 +23,10 @@ public class BankAccount {
         return bankAccountDAO.getAccount(accountNumber);
     }
 
-    public static BankAccountDAO getBankAccountDAO() {
-        return bankAccountDAO;
+    public TransactionDTO deposite(String accountNumber, double amount, String description){
+        BankAccountDTO account = bankAccountDAO.getAccount(accountNumber);
+        account.setBalance(account.getBalance() + amount);
+        return new TransactionDTO(account.getAccountNumber(), account.getBalance(),amount, "deposited");
     }
+
 }

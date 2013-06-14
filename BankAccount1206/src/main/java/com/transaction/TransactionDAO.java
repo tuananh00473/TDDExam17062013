@@ -8,4 +8,9 @@ package com.transaction;
  * To change this template use File | Settings | File Templates.
  */
 public class TransactionDAO {
+    public TransactionDTO deposit(String accountNumber, double amount, String description) {
+        return null;
+    }
+
+
 }

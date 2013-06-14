@@ -9,14 +9,14 @@ package com.transaction;
  */
 public class TransactionDTO {
     private String accountNumber;
-    private long balance;
-    private long amount;
+    private double balance;
+    private double amount;
     private String description;
 
     public TransactionDTO() {
     }
 
-    public TransactionDTO(String accountNumber, long balance, long amount, String description) {
+    public TransactionDTO(String accountNumber, double balance, double amount, String description) {
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.amount = amount;
@@ -31,7 +31,7 @@ public class TransactionDTO {
         this.accountNumber = accountNumber;
     }
 
-    public long getBalance() {
+    public double getBalance() {
         return balance;
     }
 
@@ -39,7 +39,7 @@ public class TransactionDTO {
         this.balance = balance;
     }
 
-    public long getAmount() {
+    public double getAmount() {
         return amount;
     }
 
